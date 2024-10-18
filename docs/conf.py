@@ -87,6 +87,8 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 exclude_patterns = [
+    "GEMINI_API_KEY",
+    "VOYAGE_API_KEY",
     "_build",
     "venv",
 ]
